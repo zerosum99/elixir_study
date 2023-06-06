@@ -21,7 +21,7 @@ defmodule TestProj.Application do
     children = [
     ]
     opts = [strategy: :one_for_one, name: TestProj.Supervisor]
-    IO.puts("Hello World")
+    IO.puts("Hello World !!!!!")
     Supervisor.start_link(children, opts)
   end
 end
